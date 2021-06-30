@@ -10,7 +10,6 @@
 		A21C3E39268CC1E900BC527F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C3E38268CC1E900BC527F /* WelcomeViewController.swift */; };
 		A21C3E3B268CC1F900BC527F /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C3E3A268CC1F900BC527F /* WaterViewController.swift */; };
 		A21C3E3D268CC20A00BC527F /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C3E3C268CC20A00BC527F /* SleepViewController.swift */; };
-		A21C3E41268CC24500BC527F /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C3E40268CC24500BC527F /* TasksTableViewController.swift */; };
 		A2A9D345268B97B700CBC97F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9D344268B97B700CBC97F /* AppDelegate.swift */; };
 		A2A9D347268B97B700CBC97F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9D346268B97B700CBC97F /* SceneDelegate.swift */; };
 		A2A9D349268B97B700CBC97F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9D348268B97B700CBC97F /* ViewController.swift */; };
@@ -18,13 +17,16 @@
 		A2A9D34F268B97B700CBC97F /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2A9D34D268B97B700CBC97F /* finalProject.xcdatamodeld */; };
 		A2A9D351268B97BB00CBC97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A9D350268B97BB00CBC97F /* Assets.xcassets */; };
 		A2A9D354268B97BB00CBC97F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9D352268B97BB00CBC97F /* LaunchScreen.storyboard */; };
+		A2BF65E6268CD3E7007B57EF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF65E5268CD3E7007B57EF /* ToDo.swift */; };
+		A2BF65E8268CD421007B57EF /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF65E7268CD421007B57EF /* ToDoTableViewController.swift */; };
+		A2BF65EA268CD49A007B57EF /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF65E9268CD49A007B57EF /* AddToDoViewController.swift */; };
+		A2BF65EC268CD4B9007B57EF /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF65EB268CD4B9007B57EF /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A21C3E38268CC1E900BC527F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A21C3E3A268CC1F900BC527F /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
 		A21C3E3C268CC20A00BC527F /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
-		A21C3E40268CC24500BC527F /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 		A2A9D341268B97B700CBC97F /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A9D344268B97B700CBC97F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A9D346268B97B700CBC97F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +36,10 @@
 		A2A9D350268B97BB00CBC97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A9D353268B97BB00CBC97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A9D355268B97BB00CBC97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BF65E5268CD3E7007B57EF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		A2BF65E7268CD421007B57EF /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		A2BF65E9268CD49A007B57EF /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		A2BF65EB268CD4B9007B57EF /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +76,13 @@
 				A2A9D346268B97B700CBC97F /* SceneDelegate.swift */,
 				A2A9D348268B97B700CBC97F /* ViewController.swift */,
 				A2A9D34A268B97B700CBC97F /* Main.storyboard */,
-				A21C3E40268CC24500BC527F /* TasksTableViewController.swift */,
 				A21C3E3C268CC20A00BC527F /* SleepViewController.swift */,
 				A21C3E3A268CC1F900BC527F /* WaterViewController.swift */,
+				A2BF65E5268CD3E7007B57EF /* ToDo.swift */,
+				A2BF65E7268CD421007B57EF /* ToDoTableViewController.swift */,
 				A21C3E38268CC1E900BC527F /* WelcomeViewController.swift */,
+				A2BF65E9268CD49A007B57EF /* AddToDoViewController.swift */,
+				A2BF65EB268CD4B9007B57EF /* CompleteToDoViewController.swift */,
 				A2A9D350268B97BB00CBC97F /* Assets.xcassets */,
 				A2A9D352268B97BB00CBC97F /* LaunchScreen.storyboard */,
 				A2A9D355268B97BB00CBC97F /* Info.plist */,
@@ -153,12 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A9D349268B97B700CBC97F /* ViewController.swift in Sources */,
+				A2BF65E8268CD421007B57EF /* ToDoTableViewController.swift in Sources */,
+				A2BF65EA268CD49A007B57EF /* AddToDoViewController.swift in Sources */,
 				A21C3E39268CC1E900BC527F /* WelcomeViewController.swift in Sources */,
+				A2BF65EC268CD4B9007B57EF /* CompleteToDoViewController.swift in Sources */,
 				A21C3E3D268CC20A00BC527F /* SleepViewController.swift in Sources */,
+				A2BF65E6268CD3E7007B57EF /* ToDo.swift in Sources */,
 				A21C3E3B268CC1F900BC527F /* WaterViewController.swift in Sources */,
 				A2A9D345268B97B700CBC97F /* AppDelegate.swift in Sources */,
 				A2A9D34F268B97B700CBC97F /* finalProject.xcdatamodeld in Sources */,
-				A21C3E41268CC24500BC527F /* TasksTableViewController.swift in Sources */,
 				A2A9D347268B97B700CBC97F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
