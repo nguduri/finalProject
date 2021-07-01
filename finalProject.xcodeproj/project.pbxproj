@@ -17,6 +17,7 @@
 		A2A9D34F268B97B700CBC97F /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2A9D34D268B97B700CBC97F /* finalProject.xcdatamodeld */; };
 		A2A9D351268B97BB00CBC97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A9D350268B97BB00CBC97F /* Assets.xcassets */; };
 		A2A9D354268B97BB00CBC97F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9D352268B97BB00CBC97F /* LaunchScreen.storyboard */; };
+		A2BC51BC268E0C2400F615F9 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC51BB268E0C2400F615F9 /* ExerciseViewController.swift */; };
 		A2BF65E6268CD3E7007B57EF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF65E5268CD3E7007B57EF /* ToDo.swift */; };
 		A2BF65E8268CD421007B57EF /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF65E7268CD421007B57EF /* ToDoTableViewController.swift */; };
 		A2BF65EA268CD49A007B57EF /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF65E9268CD49A007B57EF /* AddToDoViewController.swift */; };
@@ -36,6 +37,7 @@
 		A2A9D350268B97BB00CBC97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A9D353268B97BB00CBC97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A9D355268B97BB00CBC97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BC51BB268E0C2400F615F9 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		A2BF65E5268CD3E7007B57EF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		A2BF65E7268CD421007B57EF /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		A2BF65E9268CD49A007B57EF /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				A2A9D346268B97B700CBC97F /* SceneDelegate.swift */,
 				A2A9D348268B97B700CBC97F /* ViewController.swift */,
 				A2A9D34A268B97B700CBC97F /* Main.storyboard */,
+				A2BC51BB268E0C2400F615F9 /* ExerciseViewController.swift */,
 				A21C3E3C268CC20A00BC527F /* SleepViewController.swift */,
 				A21C3E3A268CC1F900BC527F /* WaterViewController.swift */,
 				A2BF65E5268CD3E7007B57EF /* ToDo.swift */,
@@ -171,6 +174,7 @@
 				A21C3E3B268CC1F900BC527F /* WaterViewController.swift in Sources */,
 				A2A9D345268B97B700CBC97F /* AppDelegate.swift in Sources */,
 				A2A9D34F268B97B700CBC97F /* finalProject.xcdatamodeld in Sources */,
+				A2BC51BC268E0C2400F615F9 /* ExerciseViewController.swift in Sources */,
 				A2A9D347268B97B700CBC97F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
